@@ -19,8 +19,8 @@ height = 158.5
 weight = 40.0
 
 print(name, address, age, height)
-print('I am', name)   # space がはいる
-print('I am' + name)  # space はない
+print('I am', name)   # space
+print('I am' + name)  # space
 
 # error case
 # print('I am' + age)
