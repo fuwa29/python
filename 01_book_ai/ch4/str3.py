@@ -1,4 +1,7 @@
 verb = 'singing'
+print('-------------------------')
+print(' verb = ', verb)
+print('-------------------------')
 
 print('verb[0]', verb[0])
 print('verb[2]', verb[2])
