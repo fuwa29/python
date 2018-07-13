@@ -1,0 +1,19 @@
+.headline {
+    font-size: 36px;
+    font-weight: normal;
+    padding: 5px;
+    border-bottom: 2px solid rgb(8, 79, 97);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    /* テーブルの線の色 */
+    border: 1px solid rgb(173, 206, 25);
+}
+th {
+    background: #114e02;
+    font-weight: normal;
+}
