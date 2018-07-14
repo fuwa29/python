@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>初めてのwebアプリケーション</title>
+    <style type="text/css">
+    h1 {
+        background: #eee;
+        border:1px solid #ccc; /* 枠線の色 */
+        border-left: 20px solid #e3297d; /* 左側、先頭だけ色を変えている */
+        padding: 15px 20px;
+    }
+    </style>
+</head>
+<body>
+    <h1>あなたのお名前は？</h1>
+    <form action="cgi-bin/name.py" method="get">
+        <p>Your Name? <input type="text" name="name"/></p>
+        <button type="submit">送信ボタンです</button>      
+        </form>
+</body>
+</html>
